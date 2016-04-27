@@ -1,0 +1,25 @@
+{
+    "name": "mndiego/borasair",
+    "description": "projeto borasair",
+    "type": "project",
+    "license": "GPL 3.0",
+    "authors": [
+        {
+            "name": "equipe dev",
+            "email": "desenvolvimento@mentesnotavei.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "respect/rest": "^0.6.0",
+        "respect/config": "^2.0",
+        "symfony/serializer": "^3.0",
+        "symfony/property-access": "^3.0"
+    },
+
+    "autoload" : {
+        "psr-4" : {
+            "EquipeBS\\" : "src/"
+        }
+    }
+}
